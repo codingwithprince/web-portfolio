@@ -5,6 +5,10 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+h1{
+    font-size: 60px;
+    text-transform: capitalize;
+}
 /* Welcome Section */
 section{
     height: 100vh;
@@ -22,6 +26,11 @@ section{
 }
 .lr-item h1{
     font-size: 80px;
+    text-transform: capitalize;
+    margin: 20px 0;
+}
+.lr-item h2{
+    font-size: 60px;
     text-transform: capitalize;
     margin: 20px 0;
 }
@@ -65,4 +74,54 @@ section{
     background-image: url("../images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
+}
+
+/* Expericence */
+#experience-section{
+    background-image: url("../images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.border-left{
+    border-left: 5px solid;
+    border-image: linear-gradient(lightSalmon, tomato);
+    border-image-slice: 1;
+}
+.border-right{
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+.footer-lr-item{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    padding-top: 2%;
+    margin-top: 10%;
+    background-color: #fff;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.7);
+}
+.footer-lr-item h2{
+    font-size: 50px;
+    text-transform: capitalize;
+    margin: 20px 0;
+}
+.footer-lr-item h3{
+    font-size: 30px;
+    text-transform: capitalize;
+    margin: 30px 0;
+}
+.footer-lr-item p{
+    text-align: justify;
+    font-size: 17px;
+    text-transform: capitalize;
+    padding: 30px 10px;
+    margin-bottom: 50px;
+}
+footer p{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 17px;
+    color: #5c5a5a;
 }
